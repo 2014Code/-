@@ -1,0 +1,57 @@
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  margin: 2px;
+  border: 1px solid;
+  border-color: green;
+  color: blueviolet;
+  background-color:darkblue; 
+}
+.navigation_item{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.timer{
+  text-align: center;
+  border: 1px solid;
+  border-color: limegreen;
+  margin:5px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: limegreen;
+}
+.item{
+  padding-top: 10px;
+}
+.item_object{
+  font-size: 25px;
+}
+.item_state{
+  font-size: 15px;
+  color: ghostwhite;
+}
+.btn_area{
+  margin:5px;
+  display: flex;
+  justify-content: space-around;
+}
+.btn_item{
+  width: 100px;
+  color: blue;
+}
+.myWX{
+    color: white;
+    padding: 5px;
+    /*margin-top: 150px;
+    margin-right: 3px;
+    margin-left: 3px;*/
+    text-align: center;
+}
+.myWX_item{
+    margin-top: 5px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}

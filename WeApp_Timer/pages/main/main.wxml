@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class = "navigation">
+  <navigator url="../timer/timer" redirect>
+    <view class="navigation_item">主页面</view>
+  </navigator>
+  <navigator url="../index/index" redirect>
+    <view class="navigation_item">导航页1</view>
+  </navigator>
+  <navigator url="../logs/logs" redirect>
+    <view class="navigation_item">导航页2</view>
+  </navigator>
+   <navigator url="../main/main" redirect>
+    <view class="navigation_item">导航页3</view>
+  </navigator>
+</view>
+<view class="container">
+  <view  bindtap="onButtonTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view>
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  margin: 2px;
+  border: 1px solid;
+  border-color: green;
+  color: blueviolet;
+  background-color:darkblue; 
+}
+.navigation_item{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}

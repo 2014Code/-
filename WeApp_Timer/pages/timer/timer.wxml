@@ -1,0 +1,27 @@
+<view class = "navigation">
+  <navigator url="../timer/timer" redirect>
+    <view class="navigation_item">主页面</view>
+  </navigator>
+  <navigator url="../index/index" redirect>
+    <view class="navigation_item">导航页1</view>
+  </navigator>
+  <navigator url="../logs/logs" redirect>
+    <view class="navigation_item">导航页2</view>
+  </navigator>
+   <navigator url="../main/main" redirect>
+    <view class="navigation_item">导航页3</view>
+  </navigator>
+</view>
+<view class="timer">
+  <!--<view class="item item_object">计时器：{{time}}</view>-->
+  <view class="item item_object">计时器：{{hour}}:{{minute}}:{{second}}:{{millisecond}}</view>
+  <view class="item item_state">{{state}}</view>
+</view>
+<view class="btn_area">
+  <button class="btn_item" type="defaut" disabled="{{disabled_star}}" bindtap="timer_start">{{txt_star}}</button>
+  <button class="btn_item" type="defaut" disabled="{{disabled_pause}}" bindtap="timer_pause">{{txt_pause}}</button>
+  <button class="btn_item" type="defaut" disabled="{{disabled_reset}}" bindtap="timer_reset">{{txt_reset}}</button>
+</view>
+<view class="myWX">
+  <view class="myWX_item"><image class="img" src="../../image/img.jpg"/></view>
+</view>
